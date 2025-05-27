@@ -15,10 +15,12 @@ This project was developed as part of the Data Mining course at National Cheng K
 
 The dataset includes health-related features from individuals and the target variable indicating **smoking status** (1 = smoker, 0 = non-smoker). The following files are used:
 
-- `train.csv`: Base training set
-- `train_Medium.csv`: Additional medium-sized training data from [here](https://www.kaggle.com/datasets/gauravduttakiit/smoker-status-prediction-using-biosignals)
-- `train_Large.csv`: Large-scale training data from [here](https://www.kaggle.com/c/playground-series-s3e24/data)
-- `test.csv`: Test data for submission
+|File|	Description|	Source|
+|--|--|--|
+|train.csv|	Base training data provided by the course|	[NCKU CS Data Mining Homework 2](https://www.kaggle.com/competitions/ncku-cs-data-mining-homework-2/data)|
+|train_Medium.csv|	Additional synthetic training data for model improvement|	[Smoker Status Prediction Using Biosignals Dataset](https://www.kaggle.com/datasets/gauravduttakiit/smoker-status-prediction-using-biosignals)|
+|train_Large.csv|	Extra large-scale training data from a related competition|	[Playground Series S3E24](https://www.kaggle.com/c/playground-series-s3e24/data)|
+|test.csv|	Test set for final submission|	[NCKU CS Data Mining Homework 2](https://www.kaggle.com/competitions/ncku-cs-data-mining-homework-2/data)|
 
 ### Sample Features:
 | Feature | Description |
