@@ -61,7 +61,6 @@ pip install pandas numpy xgboost scikit-learn optuna seaborn matplotlib
 ```
 .
 ├── README.md
-├── LICENSE
 ├── main.py
 ├── train.csv
 ├── train_Medium.csv
