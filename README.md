@@ -3,7 +3,11 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen.svg)](#)
 
-A machine learning project to predict whether an individual is a smoker based on medical and lifestyle data using **XGBoost**, feature engineering, hyperparameter tuning, and ensemble methods.
+A machine learning project to predict whether an individual is a smoker based on medical and lifestyle data using **XGBoost** , feature engineering, hyperparameter tuning, and ensemble methods.
+
+This project was developed as part of the Data Mining course at National Cheng Kung University (NCKU) , and achieved 2nd place in the class competition.
+
+![Leaderboard](/Private_leaderboard.png)
 
 ---
 
@@ -16,7 +20,7 @@ The dataset includes health-related features from individuals and the target var
 - `train_Large.csv`: Large-scale training data from [here](https://www.kaggle.com/c/playground-series-s3e24/data)
 - `test.csv`: Test data for submission
 
-### 🔍 Sample Features:
+### Sample Features:
 | Feature | Description |
 |--------|-------------|
 | `age` | Age in years |
@@ -32,7 +36,7 @@ The dataset includes health-related features from individuals and the target var
 
 ---
 
-## 🧠 Project Highlights
+## Project Highlights
 
 - **Feature Engineering**: Created new meaningful features like BMI, LDL/HDL ratio, AST/ALT ratio, etc.
 - **Outlier Handling**: Cap outliers at ±3 standard deviations
@@ -42,7 +46,7 @@ The dataset includes health-related features from individuals and the target var
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 Make sure you have installed the following libraries:
 
@@ -52,7 +56,7 @@ pip install pandas numpy xgboost scikit-learn optuna seaborn matplotlib
 
 ---
 
-## 📦 File Structure
+## File Structure
 
 ```
 .
@@ -69,7 +73,7 @@ Place all CSV files in the same directory as the script.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repo:
 
@@ -90,7 +94,7 @@ python main.py
 
 ---
 
-## 📈 Results
+## Results
 
 During execution, the script outputs:
 
@@ -101,7 +105,7 @@ During execution, the script outputs:
 
 ---
 
-## 📋 Example Output
+## Example Output
 
 ```
 Fold 1 | AUC: 0.876543
@@ -114,12 +118,12 @@ Submission file saved as submission.csv
 
 ---
 
-## 🤝 Acknowledgments
+## Acknowledgments
 
 This project was inspired by real-world applications of predictive modeling in healthcare and preventive medicine.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
